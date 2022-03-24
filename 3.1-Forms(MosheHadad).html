@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.1-Forms Moshe Hadad</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="SignUpForm">
+            <h1>Create An Account</h1>
+            <form action="#">
+                <!-- Email -->
+                <div>
+                    <label for="EmailId">Email: </label><br>
+                    <input type="email" id="EmailId" name="EmailId">
+                </div>
+                <br>
+
+                <!-- Password -->
+                <div>
+                    <label for="PasswordId">Password: </label><br>
+                    <input type="password" id="PasswordId" name="PasswordId">
+                </div>
+                <br>
+                <!-- Age -->
+                <div>
+                    <label for="AgeId">Age: </label><br>
+                    <select name="AgeId" id="AgeId">
+                      <option value="selectAge">Select Age</option>
+                      <option value="group1">0-18</option>
+                      <option value="group2">18-40</option>
+                      <option value="group3">40-50</option>
+                    </select>
+
+                </div>
+                <br>
+                <!-- Tell Us - text area-->
+                <div>
+                    <label for="TellUsId">Tell us a little about yourself: </label><br>
+                    <textarea name="TellUsId" id="TellUsId" cols="50" rows="5"></textarea>
+                </div>
+                <br>
+                <!-- Agree - Checkbox -->
+                <div>
+                    <label for="CheckBoxId">I agree to the <a href="#">terms of service</a></label>
+                    <input type="checkbox" name="CheckBoxId" id="CheckBoxId">
+
+                </div>
+                <br>
+                <!-- Submit -->
+                <div>
+                    <input type="submit" value="Sign Up">
+
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
